@@ -1,0 +1,11 @@
+{
+  "config": {
+    "multi-env": {
+      "files": [
+        "nonexistent.env",
+        "./primary.env",
+        "secondary.env"
+      ]
+    }
+  }
+}

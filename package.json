@@ -1,0 +1,53 @@
+{
+  "name": "multi-env",
+  "version": "0.0.0",
+  "description": "Merges and loads environment variables from multiple .env files for nodejs projects.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/jlegrone/multi-env",
+  "author": "Jacob LeGrone <git@jacob.work>",
+  "license": "MIT",
+  "bin": {
+    "multi-env": "./bin/multi-env.js"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "build": "rimraf lib && babel src --out-dir lib",
+    "watch": "yarn run build --watch",
+    "test": "jest",
+    "lint": "eslint src",
+    "prepublish": "yarn test && yarn run build"
+  },
+  "jest": {
+    "roots": [
+      "src"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 33,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "pkg-dir": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "jest": "^21.2.1",
+    "rimraf": "^2.6.2"
+  }
+}
