@@ -1,6 +1,6 @@
 {
   "name": "multi-env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Merges and loads environment variables from multiple .env files for nodejs projects.",
   "main": "lib/index.js",
   "repository": "https://github.com/jlegrone/multi-env",

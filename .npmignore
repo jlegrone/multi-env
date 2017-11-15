@@ -1,5 +1,7 @@
 src
+coverage
 .babelrc
 .eslintrc.json
 .travis.yml
 yarn.lock
+yarn-error.log

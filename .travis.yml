@@ -10,7 +10,7 @@ node_js:
   - '6'
   - '8'
 before_install:
-  - npm install -g yarn
+  - npm install -g yarn codecov
 install:
   - yarn install
 before_script:
@@ -18,3 +18,4 @@ before_script:
 script:
   - yarn lint
   - yarn test
+  - codecov
