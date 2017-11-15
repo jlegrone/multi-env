@@ -1,6 +1,6 @@
 {
   "name": "multi-env",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Merges and loads environment variables from multiple .env files for nodejs projects.",
   "main": "lib/index.js",
   "repository": "https://github.com/jlegrone/multi-env",
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "dotenv": "^4.0.0",
-    "pkg-dir": "^2.0.0"
+    "pkg-up": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
