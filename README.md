@@ -1,4 +1,8 @@
 # multi-env
+
+[![npm version](https://badge.fury.io/js/multi-env.svg)](https://badge.fury.io/js/multi-env)
+[![Build Status](https://travis-ci.org/jlegrone/multi-env.svg?branch=master)](https://travis-ci.org/jlegrone/multi-env)
+
 Merges and loads environment variables from multiple `.env` files for nodejs projects.
 
 ## Installation
