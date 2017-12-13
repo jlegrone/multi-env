@@ -37,26 +37,6 @@ When the same variable is assigned in multiple files, the earliest file in the a
 
 ## Usage
 
-In `package.json` scripts:
-
-```json
-{
-  "name": "my-package",
-  "version": "0.1.0",
-  "config": {
-    "multi-env": {
-      "files": [
-        "local.env",
-        "shared.env"
-      ]
-    }
-  },
-  "scripts": {
-    "start": "multi-env && node ./src"
-  }
-}
-```
-
 In node scripts:
 
 ```javascript
