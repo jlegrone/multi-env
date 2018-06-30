@@ -6,5 +6,6 @@ test-e2e
 .travis.yml
 commitlint.config.js
 .yo-rc.json
+greenkeeper.json
 yarn.lock
 yarn-error.log
