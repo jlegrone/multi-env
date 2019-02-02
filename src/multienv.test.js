@@ -1,4 +1,4 @@
-const multiEnv = require('../index.js');
+const multiEnv = require('./multienv.js');
 
 function clearEnv() {
   delete process.env.MULTI_ENV_TEST;
