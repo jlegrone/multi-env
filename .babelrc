@@ -2,12 +2,12 @@
   "presets": [
     ["env", {
       "targets": {
-        "node": "4"
+        "node": "6"
       }
     }]
   ],
   "ignore": [
-    "**/__tests__/**",
+    "*.test.js",
     "**/__mocks__/**"
   ]
 }

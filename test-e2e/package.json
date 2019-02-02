@@ -1,0 +1,22 @@
+{
+  "name": "@jlegrone/test-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Jacob LeGrone <dev@jacoblegrone.com> (https://jacoblegrone.com)",
+  "license": "MIT",
+  "dependencies": {
+    "multi-env": "file:../"
+  },
+  "config": {
+    "multi-env": {
+      "files": [
+        "primary.env",
+        "secondary.env"
+      ]
+    }
+  }
+}
