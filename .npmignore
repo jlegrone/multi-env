@@ -4,5 +4,7 @@ test-e2e
 .babelrc
 .eslintrc.json
 .travis.yml
+commitlint.config.js
+.yo-rc.json
 yarn.lock
 yarn-error.log
