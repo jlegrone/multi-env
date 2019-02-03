@@ -13,10 +13,11 @@ before_install:
   - npm install -g yarn codecov
 install:
   - yarn install
+before_script: yarn greenkeeper-lockfile-update
 script:
   - yarn commitlint-travis
   - yarn lint
   - yarn test
   - codecov
-after_success:
-  - yarn semantic-release
+after_script: yarn greenkeeper-lockfile-upload
+after_success: yarn semantic-release
