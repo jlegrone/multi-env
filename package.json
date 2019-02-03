@@ -6,9 +6,6 @@
   "repository": "https://github.com/jlegrone/multi-env",
   "author": "Jacob LeGrone <git@jacob.work>",
   "license": "MIT",
-  "bin": {
-    "multi-env": "./bin/multi-env.js"
-  },
   "engines": {
     "node": ">= 6"
   },

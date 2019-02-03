@@ -1,12 +1,13 @@
 {
-  "name": "@jlegrone/test-e2e",
-  "version": "1.0.0",
+  "name": "multi-env-test-e2e",
+  "version": "0.1.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "ALREADY_SET=foo EMPTY_VAR='' node -r multi-env/config index.js"
   },
-  "author": "Jacob LeGrone <dev@jacoblegrone.com> (https://jacoblegrone.com)",
+  "author": "Jacob LeGrone <git@jacob.work>",
   "license": "MIT",
   "dependencies": {
     "multi-env": "file:../"

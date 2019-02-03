@@ -1,5 +1,6 @@
 src
 coverage
+test-e2e
 .babelrc
 .eslintrc.json
 .travis.yml

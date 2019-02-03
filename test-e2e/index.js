@@ -1,5 +1,4 @@
 /* eslint no-console: 0 */
-require('multi-env')();
 
 const cases = [
   {
@@ -17,6 +16,14 @@ const cases = [
   {
     var: 'NOT_SET',
     expected: undefined,
+  },
+  {
+    var: 'ALREADY_SET',
+    expected: 'foo',
+  },
+  {
+    var: 'EMPTY_VAR',
+    expected: '',
   },
 ];
 
