@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/multi-env.svg)](https://badge.fury.io/js/multi-env)
 [![Build Status](https://travis-ci.org/jlegrone/multi-env.svg?branch=master)](https://travis-ci.org/jlegrone/multi-env)
-[![codecov](https://codecov.io/gh/jlegrone/multi-env/branch/master/graph/badge.svg)](https://codecov.io/gh/jlegrone/multi-env)
+[![codecov](https://codecov.io/gh/jlegrone/multi-env/branch/master/graph/badge.svg)](https://codecov.io/gh/jlegrone/multi-env) [![Greenkeeper badge](https://badges.greenkeeper.io/jlegrone/multi-env.svg)](https://greenkeeper.io/)
 
 Multi-env merges and loads environment variables from multiple `.env` files for nodejs projects.
 
