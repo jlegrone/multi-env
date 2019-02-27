@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "dotenv": "^6.2.0",
+    "dotenv-expand": "5.0.0",
     "pkg-up": "^2.0.0"
   },
   "devDependencies": {

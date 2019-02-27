@@ -24,4 +24,9 @@ describe('Configuration present in package.json', () => {
     expect(process.env.PRIMARY_ONLY).toBe('AVAILABLE');
     expect(process.env.SECONDARY_ONLY).toBe('AVAILABLE');
   });
+
+  test('Environment variables are extended', () => {
+    expect(process.env.PRIMARY_EXPANDED).toBe('PRIMARY:EXPANDED');
+    expect(process.env.SECONDARY_EXPANDED).toBe('SECONDARY:EXPANDED');
+  });
 });
