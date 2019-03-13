@@ -1,5 +1,6 @@
 import { sync as pkgUp } from 'pkg-up';
 import dotEnv from 'dotenv';
+import dotEnvExpand from 'dotenv-expand';
 import path from 'path';
 
 function multiEnv() {
@@ -10,7 +11,7 @@ function multiEnv() {
   const multiEnvConfig = config['multi-env'] || { files: [] };
 
   multiEnvConfig.files.forEach((file) => {
-    dotEnv.config({ path: path.join(dir, file) });
+    dotEnvExpand(dotEnv.config({ path: path.join(dir, file) }));
   });
 }
 

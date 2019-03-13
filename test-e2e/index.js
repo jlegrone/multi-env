@@ -25,6 +25,14 @@ const cases = [
     var: 'EMPTY_VAR',
     expected: '',
   },
+  {
+    var: 'PRIMARY_EXPANDED',
+    expected: 'PRIMARY:EXPANDED',
+  },
+  {
+    var: 'SECONDARY_EXPANDED',
+    expected: 'SECONDARY:EXPANDED',
+  },
 ];
 
 cases.forEach((tc) => {
