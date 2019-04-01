@@ -3,14 +3,16 @@ import dotEnv from 'dotenv';
 import dotEnvExpand from 'dotenv-expand';
 import path from 'path';
 
-function multiEnv() {
+function multiEnv(files = []) {
   const pkgPath = pkgUp();
   const dir = path.dirname(pkgPath);
   // eslint-disable-next-line global-require, import/no-dynamic-require
   const { config = {} } = require(pkgPath);
   const multiEnvConfig = config['multi-env'] || { files: [] };
 
-  multiEnvConfig.files.forEach((file) => {
+  const fileArray = files.concat(multiEnvConfig.files);
+
+  fileArray.forEach((file) => {
     dotEnvExpand(dotEnv.config({ path: path.join(dir, file) }));
   });
 }
