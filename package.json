@@ -7,7 +7,7 @@
   "author": "Jacob LeGrone <git@jacob.work>",
   "license": "MIT",
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   },
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib",
@@ -39,7 +39,7 @@
     }
   },
   "dependencies": {
-    "dotenv": "^7.0.0",
+    "dotenv": "^8.0.0",
     "dotenv-expand": "5.1.0",
     "pkg-up": "^2.0.0"
   },
