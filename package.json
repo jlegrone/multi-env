@@ -44,9 +44,9 @@
     "pkg-up": "^2.0.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^7.5.0",
-    "@commitlint/prompt": "^7.5.0",
-    "@commitlint/travis-cli": "^7.5.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@commitlint/prompt": "^8.1.0",
+    "@commitlint/travis-cli": "^8.1.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "commitizen": "^3.0.5",
