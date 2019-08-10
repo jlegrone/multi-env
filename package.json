@@ -51,7 +51,7 @@
     "babel-preset-env": "^1.6.1",
     "commitizen": "^3.0.5",
     "eslint": "^5.13.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^22.2.2",
     "greenkeeper-lockfile": "^1.15.1",
