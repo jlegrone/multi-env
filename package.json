@@ -46,7 +46,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/prompt": "^8.3.5",
-    "@commitlint/travis-cli": "^7.5.0",
+    "@commitlint/travis-cli": "^8.3.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "commitizen": "^3.0.5",
